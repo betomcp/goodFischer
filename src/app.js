@@ -4,11 +4,12 @@ import path from "path";
 let app = express();
 let __dirname = path.resolve();
 
+app.use(express.static(path.join(__dirname, 'src/public')));
+
 app.use(express.json());
 
 app.get("/", (req, res) => {
-    console.log(req.hostname)
-    res.sendFile(path.join(__dirname + "/index.html"));
+    res.sendFile(path.join(__dirname,"src/views/index.html"));
 })
 
 app.post("/", (req, res) => {
