@@ -11,6 +11,12 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname + "/index.html"));
 })
 
+app.get("/teste", (req, res) => {
+    res.sendFile(path.join(__dirname + "/teste.html"));
+})
+
+
+
 app.post("/", (req, res) => {
     res.json(req.body);
 })
