@@ -1,0 +1,117 @@
+
+header{
+    height: 20vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 4rem;
+    /* border: solid 2px red; */
+}
+
+header a{
+    font-size: 3rem;
+    font-weight: lighter;
+    color: rgb(232, 176, 9);
+    text-decoration: none;
+    margin-left: 2rem;
+    /* border: solid 2px red; */
+}
+
+.logo{
+    margin: 2.4rem 0;
+    width: 100%;
+    /* height: 120vh; */
+    /* background-image: url(../temporary-images/logo-1.png);
+    background-size: cover; */
+
+}
+
+.logo img{
+    width: 100%;
+}
+
+
+.project{
+    width: 100%;
+    min-height: 40vh;
+    padding: 3rem 0 10rem 0;
+    /* border: solid 2px red; */
+
+}
+
+
+
+.p1 img{
+    width: 53%;
+    margin-left: 14%;
+    padding-bottom: 8rem;
+}
+
+.p2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.p2 img{
+    width: 54%;
+    margin-right: 5%;
+}
+
+.p3 img{
+    width: 75%;
+    margin-left: 7%;
+}
+
+.p4 img{
+    width: 83%;
+    margin-left: 11%;
+}
+
+
+.p5 img{
+    width: 100%;
+}
+
+.p6{
+    display: flex;
+    justify-content: center;
+}
+
+.p6 img{
+    width: 69%;
+}
+
+.p7{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.p7 img{
+    margin-right: 4%;
+    width: 55%;
+}
+
+.p8{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.p8 img{
+    margin-right: 6%;
+    width: 75%;
+}
+
+.fischer{
+    display: flex;
+    justify-content: center;
+}
+
+.fischer img{
+    width: 84%;
+    padding-bottom: .5rem;
+}
+
+.bottom_img img{
+    width: 52%;
+    margin-left: 5%;
+}

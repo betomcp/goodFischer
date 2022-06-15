@@ -1,0 +1,45 @@
+body{
+    padding: 6rem 4rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo img{
+    width: 20%;
+    opacity: 1;
+}
+
+ul{
+    margin-top: 2rem;
+    list-style: none;
+    border-top: black 3px solid;
+}
+
+ul li{
+    padding: 1.5rem 0;
+    border-bottom: black 3px solid;
+}
+
+ul a{
+    font-size: 3rem;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.transparent_img{
+    position: absolute;
+    top: 32%;
+    left: 40%;
+    opacity: 0;
+    transition: .8s;
+}
+
+.transparent_img_on{
+    transition: .8s;
+    opacity: 1;
+}
