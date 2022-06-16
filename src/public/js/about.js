@@ -9,6 +9,11 @@ let rightValue = (imgLoopHeight / 2) - 15
 loopImg.style.top = topValue.toString() + 'px'
 loopImg.style.right = rightValue.toString() + 'px';
 
+window.onload = ()=>{
+    loopImg.style.top = topValue.toString() + 'px'
+    loopImg.style.right = rightValue.toString() + 'px';
+}
+
 window.onresize = ()=>{
 
     loopImg = document.getElementById('img-loop')
