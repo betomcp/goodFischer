@@ -3,6 +3,16 @@
     --right: 0;
 } */
 
+@font-face {
+    font-family: PPTelegraf;
+    src: url("/fonts/ufonts.com_american-typewriter-condensed-light.ttf") format("opentype");
+    src: url("/fonts/AttilaSansSharp-Light.otf") format("opentype");
+}
+
+body{
+    font-family: PPTelegraf;
+    /* font-size: 2rem; */
+}
 
 header{
     height: 30vh;
@@ -36,20 +46,19 @@ header img{
 .text p{
     font-size: 1.555rem;
     line-height: 1.9rem;
-    padding: 1rem 4rem 1.3rem 5rem;
+    padding: 1rem 4.9rem 1.3rem 5rem;
 }
 
 .img_loop_div{
     position: relative;
     /* top: var(--top);
     right: var(--right); */
-    width: 23%;
+    width: 25%;
 }
 
 #img-loop img{
     width: 100%;
     animation: rotate 10s linear infinite;
-    opacity: .7;
 }
 
 
