@@ -12,16 +12,18 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname,"src/views/index.html"));
 })
 
-app.get("/index-2", (req, res) => {
-    res.sendFile(path.join(__dirname,"src/views/index-2.html"));
+app.get("/about", (req, res) => {
+    res.sendFile(path.join(__dirname,"src/views/about-us.html"));
 })
 
 
-app.post("/", (req, res) => {
-    res.json(req.body);
-})
 
 
 app.listen(process.env.PORT || 3000, () =>
-  console.log('Example app listening on port 3000!'),
+console.log('Example app listening on port 3000!'),
 );
+
+
+// app.post("/", (req, res) => {
+//     res.json(req.body);
+// })

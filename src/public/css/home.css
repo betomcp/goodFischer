@@ -3,7 +3,7 @@ header{
     height: 20vh;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
     padding: 0 4rem;
     /* border: solid 2px red; */
 }
@@ -11,10 +11,17 @@ header{
 header a{
     font-size: 3rem;
     font-weight: lighter;
-    color: rgb(232, 176, 9);
+    /* color: rgb(232, 176, 9); */
     text-decoration: none;
     margin-left: 2rem;
     /* border: solid 2px red; */
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header a img{
+    width: 100%;
 }
 
 .logo{
