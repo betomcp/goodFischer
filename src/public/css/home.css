@@ -1,4 +1,10 @@
 
+
+.container{
+    /* background-image: url(/img/fundo-0.png); */
+    /* background-position: cover; */
+}
+
 header{
     height: 20vh;
     display: flex;
@@ -20,6 +26,7 @@ header a{
     justify-content: center;
     align-items: center;
 }
+
 header a img{
     width: 100%;
 }
@@ -35,6 +42,12 @@ header a img{
 
 .logo img{
     width: 100%;
+    /* opacity: 0; */
+}
+
+.fundo_2{
+    background-image: url(/img/fundo-2.png);
+    background-size: cover;
 }
 
 
@@ -111,11 +124,17 @@ header a img{
 .fischer{
     display: flex;
     justify-content: center;
+    opacity: 0;
 }
 
-.fischer img{
+/* .fischer img{
     width: 84%;
     padding-bottom: .5rem;
+} */
+
+.bottom_img{
+    /* border: solid 2px red;    */
+    margin-top: 20vh;
 }
 
 .bottom_img img{

@@ -16,6 +16,18 @@ app.get("/about", (req, res) => {
     res.sendFile(path.join(__dirname,"src/views/about-us.html"));
 })
 
+app.get("/about-2", (req, res) => {
+    res.sendFile(path.join(__dirname,"src/views/about-us-2.html"));
+})
+
+app.get("/projects", (req, res) => {
+    res.sendFile(path.join(__dirname,"src/views/projects-menu.html"));
+})
+
+app.get("/web-motors", (req, res) => {
+    res.sendFile(path.join(__dirname,"src/views/projects-html/web-motors.html"));
+})
+
 
 
 

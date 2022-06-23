@@ -9,16 +9,24 @@
     src: url("/fonts/AttilaSansSharp-Light.otf") format("opentype");
 }
 
+@font-face {
+    font-family: americaTypeWriter;
+    src: url("/fonts/ufonts.com_american-typewriter-condensed-light.ttf") format("opentype");
+    /* src: url("/fonts/AttilaSansSharp-Light.otf") format("opentype"); */
+}
+
 body{
-    font-family: PPTelegraf;
+    /* font-family: PPTelegraf; */
+    font-family: americaTypeWriter;
     /* font-size: 2rem; */
 }
 
 header{
-    height: 30vh;
+    height: 20vh;
     width: 100%;
     display: flex;
     align-items: center;
+    /* border: solid 2px red; */
 }
 
 header a{
@@ -33,11 +41,15 @@ header img{
 
 .container{
     display: flex;
-    padding: 1.7rem 0 0rem 0;
+    padding: .7rem 0 0rem 0;
 }
 
-.container .div_c{
-    width: 50%;
+.container .div_c_1{
+    width: 48%;
+}
+
+.container .div_c_2{
+    width: 52%;
 }
 
 .img_div{
@@ -48,17 +60,33 @@ header img{
     width: 100%;
 }
 
+.text{
+    display: flex;
+    justify-content: space-between;
+    /* border: solid 2px red; */
+}
+
 .text p{
-    font-size: 1.555rem;
-    line-height: 1.9rem;
-    padding: 1rem 4.9rem 1.3rem 5rem;
+    font-size: 1.47rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+    /* padding: 1rem 4.9rem 1.3rem 5rem; */
+    width: 100%;
+}
+
+.txt{
+    width: 69%;
+    /* border: solid 2px blue; */
+    padding-right: 7rem;
 }
 
 .img_loop_div{
-    position: relative;
+    /* position: relative; */
     /* top: var(--top);
     right: var(--right); */
-    width: 25%;
+    width: 17%;
+    margin-left: 5rem;
 }
 
 #img-loop img{
