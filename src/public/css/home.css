@@ -5,6 +5,19 @@
     /* background-position: cover; */
 }
 
+body::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    /* width: 2px; */
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.212);
+}
+
+
+
 header{
     height: 20vh;
     display: flex;
@@ -46,8 +59,39 @@ header a img{
 }
 
 .fundo_2{
-    background-image: url(/img/fundo-2.png);
+    overflow: auto;
+    height: 100vh;
+    /* width: 98%; */
+    /* position: sticky; */
+    /* border: solid 2px red; */
+    background-image: url(/img/fundo-2-of.png);
+
     background-size: cover;
+
+    /* background-color: red; */
+    background-position-y: -24vh;
+
+    overflow-x: hidden;
+}
+
+/* .fundo_2::-webkit-scrollbar {
+    display: none;
+  } */
+
+.fundo_2::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+}
+
+/* .fundo_2::-webkit-scrollbar-x {
+    width: 5px;
+    background-color: transparent;
+} */
+
+.fundo_2::-webkit-scrollbar-thumb {
+    /* width: 2px; */
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.212);
 }
 
 
